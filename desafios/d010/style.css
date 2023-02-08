@@ -1,0 +1,107 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'curso';
+    src: url('fontes/idroid.otf') format('opentype');
+}
+
+body {
+    background-color: #84e1ad;
+    margin: 0px;
+}
+
+.fonte-titulo{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    text-align: center;
+    color: white;
+    margin: 0px;
+    padding: 20px;
+}
+    
+.gradiente {
+    background-image: linear-gradient(to left, #1a5c37, #39cb79);
+    background-attachment: fixed;
+}
+
+#cabecalho {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:normal;
+    font-size: medium;
+    color: white;
+    text-align: center;
+}
+
+.titulo {
+    font-size:xx-large;
+}
+
+nav {
+    padding: 5px;
+    background-color: #1a5c37;
+    margin: 0px;
+}
+
+
+nav > a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    margin-right: 10px;
+    padding: 15px;
+}
+
+nav > a:hover {
+    text-decoration: underline;
+}
+
+main { 
+    background-color: white;
+    box-shadow: black;
+    border-radius: 0px 0px 10px 10px;
+    text-align: justify;
+    padding: 20px;
+    margin: 0px 100px 10px 100px;
+}
+
+p {
+    text-indent: 20px;
+}
+
+.fonte { 
+    font-family: 'curso', Times, serif;
+    color: #096e4c;
+}
+
+.ultimo-t {
+    background-color: #2fa866;
+    color: white;
+    font-weight: bold;
+    font-size: medium;
+    padding: 8px;
+    border-radius: 5px 5px 0px 0px;
+    margin: 0px;
+}
+
+.last-a {
+    background-color: #c5ebd6;
+    border-radius: 5px;
+    padding: 5px;
+    
+}
+
+span {
+    color: #096e4c;
+    font-weight: bold;
+}
+
+.caixa {
+    background-image: linear-gradient(to right, #0ea27146, white);
+}
+
+footer {
+    background-color: #096e4c;
+    color: white;
+    text-align: center;
+    font-size:medium;
+    padding: 5px;
+}
